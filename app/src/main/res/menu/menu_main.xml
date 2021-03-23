@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/filterFav" android:icon="@drawable/ic_favorite_yes" app:showAsAction="always" android:title="Filtrar Favoritos" />
+    <item android:id="@+id/filterAll" android:icon="@drawable/ic_favorite_no" app:showAsAction="always" android:title="Carregar Todos" />
+    <item android:id="@+id/exit"  app:showAsAction="never" android:title="Exit" />
+</menu>

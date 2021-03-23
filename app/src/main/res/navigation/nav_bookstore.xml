@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navbookstore"
+    app:startDestination="@id/bookList">
+
+    <fragment
+        android:id="@+id/bookList"
+        android:name="br.com.android.bookstore_carloseduardo.ui.BookListFragment"
+        android:label="book_list_fragment"
+        tools:layout="@layout/book_list_fragment" >
+        <action
+            android:id="@+id/action_bookList_to_bookDetails"
+            app:destination="@id/bookDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookDetails"
+        android:name="br.com.android.bookstore_carloseduardo.ui.BookDetailsFragment"
+        android:label="book_details_fragment"
+        tools:layout="@layout/book_details_fragment" />
+</navigation>
